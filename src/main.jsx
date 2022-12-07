@@ -4,6 +4,6 @@ import "./main.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div>My Portfolio</div>
+    <h1 className="text-3xl">My Portfolio</h1>
   </React.StrictMode>
 );
