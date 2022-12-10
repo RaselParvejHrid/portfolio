@@ -13,10 +13,12 @@ const MyNavbar = () => {
   const [showNav, setShowNav] = useState(true);
   return (
     <nav className="bg-outer-space-crayola text-white fixed left-4 top-4 my-auto rounded-lg flex flex-col gap-2">
-      <GiHamburgerMenu
-        className="text-baby-powder text-2xl m-4 text-center block"
-        onClick={() => setShowNav(!showNav)}
-      />
+      <p className="flex justify-center m-5">
+        <GiHamburgerMenu
+          className="text-baby-powder text-2xl"
+          onClick={() => setShowNav(!showNav)}
+        />
+      </p>
       {showNav && (
         <>
           <MyNavItem href="#intro" tooltip="Hello!" image={intro} />
