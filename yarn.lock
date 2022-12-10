@@ -315,6 +315,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@emailjs/browser@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@emailjs/browser@npm:3.10.0"
+  checksum: e54784bb938b333dc2ba3d68ddf1c7322071651372da9a23ee0f5a9eb444c6b6a65155aec9c4570f3db7bac4926e30627b052ea90f0994e7be57298b9964b781
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm@npm:0.15.18":
   version: 0.15.18
   resolution: "@esbuild/android-arm@npm:0.15.18"
@@ -773,6 +780,13 @@ __metadata:
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
   checksum: 2ac8cd2b2f5ec986a3c743935ec85b07bc174d5421a5efc8017e1f146a1cf5f781ae962618f416352103b32c9cd7e203276e8c28241bbe946160cab16149fb68
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^1.1.1":
+  version: 1.2.1
+  resolution: "clsx@npm:1.2.1"
+  checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
   languageName: node
   linkType: hard
 
@@ -1905,6 +1919,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "portfolio@workspace:."
   dependencies:
+    "@emailjs/browser": ^3.10.0
     "@tailwindcss/forms": ^0.5.3
     "@types/react": ^18.0.24
     "@types/react-dom": ^18.0.8
@@ -1913,7 +1928,9 @@ __metadata:
     postcss: ^8.4.19
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-hook-form: ^7.40.0
     react-icons: ^4.7.1
+    react-toastify: ^9.1.1
     tailwindcss: ^3.2.4
     typewriter-effect: ^2.19.0
     vite: ^3.2.3
@@ -2064,6 +2081,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-hook-form@npm:^7.40.0":
+  version: 7.40.0
+  resolution: "react-hook-form@npm:7.40.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18
+  checksum: 8187981c14cc2e016c263a7427ffc5617b126efed97003e259efff1af991d12bef5cb599d824385f760a03a0676eb0d19007aa3ebcc65832cfe819b3802530c5
+  languageName: node
+  linkType: hard
+
 "react-icons@npm:^4.7.1":
   version: 4.7.1
   resolution: "react-icons@npm:4.7.1"
@@ -2084,6 +2110,18 @@ __metadata:
   version: 0.14.0
   resolution: "react-refresh@npm:0.14.0"
   checksum: dc69fa8c993df512f42dd0f1b604978ae89bd747c0ed5ec595c0cc50d535fb2696619ccd98ae28775cc01d0a7c146a532f0f7fb81dc22e1977c242a4912312f4
+  languageName: node
+  linkType: hard
+
+"react-toastify@npm:^9.1.1":
+  version: 9.1.1
+  resolution: "react-toastify@npm:9.1.1"
+  dependencies:
+    clsx: ^1.1.1
+  peerDependencies:
+    react: ">=16"
+    react-dom: ">=16"
+  checksum: 2039255539961a9b4d77b2656f120b20abe46cb0c699a7f3c0af23b4ef669d9c4d24dae6b8f4954b5efd83edf6d6e23614a29e94e9ee0d2647741fba9ba2db85
   languageName: node
   linkType: hard
 
