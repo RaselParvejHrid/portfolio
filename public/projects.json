@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Paginact",
+    "image": "/paginact.png",
+    "intro": "An NPM Package that offers a React Hook that handles all the stateful logic needed to implement (Offset-based) Pagination in a React/React Native app.",
+    "techs": [
+      {
+        "title": "Techs",
+        "text": "React, React Hook, useReducer()"
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com/RaselParvejABC/paginact"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "NPM",
+        "link": "https://www.npmjs.com/package/paginact"
+      }
+    ]
+  },
+  {
+    "title": "PuranBoi",
+    "image": "/puran-boi.png",
+    "intro": "A MERN Project— a P2P Old Books Selling-Buying Site with three types of users, namely, buyers, sellers, and admins.",
+    "techs": [
+      {
+        "title": "Front",
+        "text": "React (Render Props, Context), TailwindCSS, DaisyUI, React DaisyUI, React Query, Axios, React Hook Form, React Firebase Hooks, Firebase Authentication (Email-Password and Google), React Router DOM, React Stripe, ImgBB (as Image Storage), etc."
+      },
+      {
+        "title": "Back",
+        "text": "Node (dotenv), Express (cors), MongoDB (CRUD, Aggregation, Transaction), HTTP-only JWT Authorization (cookie-parser, jsonwebtoken), Stripe (for Payment Intent), etc."
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/puran-boi"
+      },
+      {
+        "title": "GitHub (Server)",
+        "link": "https://github.com/RaselParvejABC/puran-boi"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://puran-boi.web.app"
+      }
+    ]
+  },
+  {
+    "title": "Math Mentor",
+    "image": "/math-mentor.png",
+    "intro": "A MERN Project— Service Review Site for a Individual Service Owner.",
+    "techs": [
+      {
+        "title": "Front",
+        "text": "React (Render Props, Context), TailwindCSS, Material Tailwind, Firebase Authentication (Email-Password and Google), React Router DOM (Loaders, Actions), ImgBB (as Image Storage), etc."
+      },
+      {
+        "title": "Back",
+        "text": "Node (dotenv), Express (cors), MongoDB (CRUD, Aggregation), Firebase Admin, HTTP-only JWT Authorization (cookie-parser, jsonwebtoken),  etc."
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/math-mentor"
+      },
+      {
+        "title": "GitHub (Server)",
+        "link": "https://github.com/RaselParvejABC/math-mentor-server"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://math-mentor-737ff.web.app"
+      }
+    ]
+  }
+]

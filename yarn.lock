@@ -1930,7 +1930,9 @@ __metadata:
     react-dom: ^18.2.0
     react-hook-form: ^7.40.0
     react-icons: ^4.7.1
+    react-photo-view: ^1.2.3
     react-toastify: ^9.1.1
+    spinners-react: ^1.0.7
     tailwindcss: ^3.2.4
     typewriter-effect: ^2.19.0
     vite: ^3.2.3
@@ -2103,6 +2105,16 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-photo-view@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "react-photo-view@npm:1.2.3"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 0ff8b4b9ff35acd2e756e11e221af2f9e30eb9f9bbec3ddab7f76fd1fd334a8e0222f24343f412e055daa7fa94de1e3f1f0dc1f81c9e6f249c0eece425af0717
   languageName: node
   linkType: hard
 
@@ -2333,6 +2345,18 @@ __metadata:
   version: 1.4.8
   resolution: "sourcemap-codec@npm:1.4.8"
   checksum: b57981c05611afef31605732b598ccf65124a9fcb03b833532659ac4d29ac0f7bfacbc0d6c5a28a03e84c7510e7e556d758d0bb57786e214660016fb94279316
+  languageName: node
+  linkType: hard
+
+"spinners-react@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "spinners-react@npm:1.0.7"
+  peerDependencies:
+    "@types/react": ^16.x || ^17.x || ^18.x
+    "@types/react-dom": ^16.x || ^17.x || ^18.x
+    react: ^16.x || ^17.x || ^18.x
+    react-dom: ^16.x || ^17.x || ^18.x
+  checksum: a06c67b89118721fd5042ef8927e193924de18701ee65724fc3bf158733a332ad1a06179e650c87ab16ea9af09a92a425131d1b53f0a8bc059588a7231fb3d31
   languageName: node
   linkType: hard
 
