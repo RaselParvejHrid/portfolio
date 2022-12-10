@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaWhatsappSquare } from "react-icons/fa";
 const MyFooter = () => {
   return (
     <footer className="text-center text-white border-t-2 border-t-outer-space-crayola">
-      <div className="container pt-5">
+      <div className="container pt-5 mx-auto">
         <div className="flex justify-center mb-5 text-5xl">
           <a
             href="https://www.linkedin.com/in/raselparvej"
