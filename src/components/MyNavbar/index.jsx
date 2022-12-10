@@ -12,7 +12,7 @@ import message from "../../assets/nav/message.png";
 const MyNavbar = () => {
   return (
     <Draggable>
-      <div className="bg-outer-space-crayola text-white fixed left-4 top-4 my-auto rounded-lg flex flex-col gap-2">
+      <nav className="bg-outer-space-crayola text-white fixed left-4 top-4 my-auto rounded-lg flex flex-col gap-2">
         <MyNavItem href="#intro" tooltip="Hello!" image={intro} />
         <MyNavItem href="#about" tooltip="About me." image={about} />
         <MyNavItem href="#skills" tooltip="See my Skills." image={skills} />
@@ -26,7 +26,7 @@ const MyNavbar = () => {
           tooltip="Send me a Message."
           image={message}
         />
-      </div>
+      </nav>
     </Draggable>
   );
 };
