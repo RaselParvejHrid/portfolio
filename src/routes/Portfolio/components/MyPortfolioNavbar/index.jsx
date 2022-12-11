@@ -2,19 +2,20 @@ import React, { useState } from "react";
 
 import MyNavItem from "./MyNavItem";
 
-import intro from "../../assets/nav/intro.png";
-import about from "../../assets/nav/about.png";
-import skills from "../../assets/nav/skills.png";
-import projects from "../../assets/nav/projects.png";
-import message from "../../assets/nav/message.png";
-import { GiHamburgerMenu } from "react-icons/gi";
+import intro from "../../../../assets/nav/intro.png";
+import about from "../../../../assets/nav/about.png";
+import skills from "../../../../assets/nav/skills.png";
+import projects from "../../../../assets/nav/projects.png";
+import message from "../../../../assets/nav/message.png";
+// import { GiHamburgerMenu } from "react-icons/gi";
+import { RiPagesFill } from "react-icons/ri";
 
-const MyNavbar = () => {
+const MyPortfolioNavbar = () => {
   const [showNav, setShowNav] = useState(true);
   return (
     <nav className="bg-outer-space-crayola text-white fixed left-4 top-4 my-auto rounded-lg flex flex-col gap-2">
       <p className="flex justify-center m-5">
-        <GiHamburgerMenu
+        <RiPagesFill
           className="text-baby-powder text-2xl"
           onClick={() => setShowNav(!showNav)}
         />
@@ -40,4 +41,4 @@ const MyNavbar = () => {
   );
 };
 
-export default MyNavbar;
+export default MyPortfolioNavbar;

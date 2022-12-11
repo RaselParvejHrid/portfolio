@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import MySpinnerDottedOnCenter from "../MySpinnerDottedOnCenter";
+import MySpinnerDottedOnCenter from "../../../../components/MySpinnerDottedOnCenter";
 import Project from "./Project";
 
 const MyProjects = () => {

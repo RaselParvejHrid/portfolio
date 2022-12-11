@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
-import WaitDialog from "../WaitDialog";
+import WaitDialog from "../../../../components/WaitDialog";
 import { toast } from "react-toastify";
 
 const MessageMe = () => {
