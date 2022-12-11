@@ -13,7 +13,7 @@ const Project = ({ project, index }) => {
           <img src={project.images[0]} />
         </PhotoView>
       </div>
-      <p className="mt-8 h-24">{project.intro}</p>
+      <p className="mt-8 h-36">{project.intro}</p>
 
       <Link />
 
