@@ -5,6 +5,7 @@ import ErrorPage from "./components/ErrorPage";
 import Portfolio from "./routes/Portfolio";
 import Blog from "./routes/Blog";
 import Project from "./routes/Portfolio/components/MyProjects/Project";
+import ProjectDetail, { loader as projectLoader } from "./routes/ProjectDetail";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,8 @@ const router = createBrowserRouter([
       },
       {
         path: "project/:projectID",
-        element: <Project />,
+        loader: projectLoader,
+        element: <ProjectDetail />,
       },
     ],
   },

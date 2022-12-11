@@ -1,8 +1,15 @@
 [
   {
     "title": "Paginact",
-    "image": "/paginact.png",
+    "images": ["/paginact1.png", "/paginact2.png", "/paginact3.png"],
     "intro": "An NPM Package that offers a React Hook that handles all the stateful logic needed to implement (Offset-based) Pagination in a React/React Native app.",
+    "overview": [
+      "A Dependent app can set (and then get) the total number of items, number of items per page, and current page index at compile-time or runtime.",
+      "A Dependant app can also get the total number of pages, first and last page indices, offset of the current page, start and last item indices on the current page, and previous and next page indices.",
+      "Comprehensive Documentation.",
+      "useReducer() Hook is used internally to manage Pagination State.",
+      "Minimum State Change Ensured."
+    ],
     "techs": [
       {
         "title": "Techs",
@@ -24,8 +31,17 @@
   },
   {
     "title": "PuranBoi",
-    "image": "/puran-boi.png",
+    "images": ["/puran-boi1.png", "/puran-boi2.png", "/puran-boi3.png"],
     "intro": "A MERN Project— a P2P Old Books Selling-Buying Site with three types of users, namely, buyers, sellers, and admins.",
+    "overview": [
+      "A Buyer/Seller can register a Password Account, and use it to log in; or sign in with Google.",
+      "Firebase Email-Password and  Google Authentication used.",
+      "When logged in, a buyer can report ads to admin, request to purchase an advertised product, see his/her purchase requests and the status of the requests, and pay by Stripe after his/her purchase request is accepted by the seller.",
+      "A seller, when logged in,  can add and advertise products, see buyers' purchase requests for his/her products, accept or reject purchase requests, and can see all his/her products.",
+      "A logged-in admin can see the list of all sellers, verify and delete sellers, see the list of all buyers, and delete buyers, can see reports on ads, mark a report as resolved, and delete a reported product.",
+      "React Query is used for instant synchronization with server state.",
+      "HTTP-only JWT Authorization on Server-side."
+    ],
     "techs": [
       {
         "title": "Front",
@@ -55,8 +71,17 @@
   },
   {
     "title": "Math Mentor",
-    "image": "/math-mentor.png",
+    "images": ["/math-mentor1.png", "/math-mentor2.png", "/math-mentor3.png"],
     "intro": "A MERN Project— Service Review Site for a Individual Service Owner.",
+    "overview": [
+      "Visitors can see services provided by the Site Owner, a Math Mentor.",
+      "A user can register a Password Account, and use it to log in; or sign in with Google.",
+      "Firebase Email-Password and  Google Authentication used.",
+      "While logged in, a user can review and rate a service.",
+      "A logged-in user can see, edit and delete his/her reviews and ratings.",
+      "A user, when logged in, can also add a new service.",
+      "HTTP-only JWT Authorization on Server-side."
+    ],
     "techs": [
       {
         "title": "Front",

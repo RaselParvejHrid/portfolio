@@ -6,7 +6,7 @@ const About = () => {
       <h1 className="text-center font-bold text-rich-black-fogra text-h4 mb-8">
         About Me
       </h1>
-      <div className="grid lg:grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-2 gap-4 items-center">
         <h2 className="text-center font-bold text-outer-space-crayola text-h6 mb-8">
           Mathematician, Physicist, Computer Scientist,
           <br /> Programmer, Kung Fu Master, <br />
