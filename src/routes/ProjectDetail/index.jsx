@@ -36,11 +36,11 @@ const ProjectDetail = () => {
         Overview
       </h2>
 
-      <ol className="list-decimal">
+      <ul className="list-disc">
         {project.overview.map((overviewItem, index) => (
           <li key={index}>{overviewItem}</li>
         ))}
-      </ol>
+      </ul>
 
       {project.techs.map((tech, index) => (
         <p key={index} className="mt-4">
