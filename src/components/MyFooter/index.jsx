@@ -24,7 +24,7 @@ const MyFooter = () => {
         </div>
       </div>
 
-      <div className="text-center bg-outer-space-crayola text-white py-8">
+      <div className="text-center bg-outer-space-crayola text-white py-8 pb-24">
         &copy; {new Date().getFullYear()} Copyright: Muhammad Rasel Parvej
       </div>
     </footer>
