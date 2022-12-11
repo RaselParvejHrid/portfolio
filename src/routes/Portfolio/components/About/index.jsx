@@ -7,7 +7,7 @@ const About = () => {
         About Me
       </h1>
       <div className="grid lg:grid-cols-2 gap-4 items-center">
-        <h2 className="text-center font-bold text-outer-space-crayola text-h6 mb-8">
+        <h2 className="text-center font-bold text-outer-space-crayola text-h6 my-8">
           Mathematician, Physicist, Computer Scientist,
           <br /> Programmer, Kung Fu Master, <br />
           The Clever Detective in the Funny Hat,
@@ -15,7 +15,7 @@ const About = () => {
           The Old Crazy Turtle, and “Yes, the Panda"—
           <br />I am everything I am <br />I am everything I want to be
         </h2>
-        <div>
+        <div className="my-8">
           <p>I love to solve Mathematical and Computational Problems.</p>
           <p className="mt-2">
             I love also to work with Algorithms and love to learn things and
