@@ -15,7 +15,6 @@ const MessageMe = () => {
   const [showWait, setShowWait] = useState(false);
 
   const sendEmail = async (formData) => {
-    console.log(formData);
     setShowWait(true);
     try {
       await emailjs.send(
