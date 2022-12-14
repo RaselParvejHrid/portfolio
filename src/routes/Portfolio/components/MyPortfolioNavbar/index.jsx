@@ -10,7 +10,7 @@ import message from "../../../../assets/nav/message.png";
 import { RiPagesFill, RiDownloadCloud2Fill } from "react-icons/ri";
 
 const MyPortfolioNavbar = () => {
-  const [showNav, setShowNav] = useState(false);
+  const [showNav, setShowNav] = useState(true);
   return (
     <>
       <nav className="bg-outer-space-crayola text-white fixed left-4 top-4 my-auto rounded-lg flex flex-col gap-2">
