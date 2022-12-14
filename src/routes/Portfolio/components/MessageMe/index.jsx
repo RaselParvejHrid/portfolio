@@ -12,7 +12,7 @@ const MessageMe = () => {
     formState: { errors: formErrors },
   } = useForm();
 
-  const [showWait, setShowWait] = useState(false);
+  const [showWait, setShowWait] = useState(true);
 
   const sendEmail = async (formData) => {
     setShowWait(true);
