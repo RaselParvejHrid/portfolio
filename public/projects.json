@@ -386,5 +386,42 @@
         "link": "https://github.com/RaselParvejABC/ahbab-admins#readme"
       }
     ]
+  },
+  {
+    "title": "Ahbab Members",
+    "images": [
+      "/ahbabmembers1.jpg",
+      "/ahbabmembers2.jpg",
+      "/ahbabmembers3.jpg"
+    ],
+    "intro": "App for Members of Al-Ahbab Society, Doha, Qatar, developed with Flutter (Android).",
+    "overview": [
+      "Firebase Cloud Firestore as Realtime Database.",
+      "Firebase Messaging.",
+      "Firebase Analytics.",
+      "flutter_local_notifications Package.",
+      "stream_transform Package for Advanced Stream Handling.",
+      "provider Package for State Management",
+      "Custom Bangla Fonts.",
+      "Null Safe."
+    ],
+    "techs": [
+      {
+        "title": "Techs",
+        "text": "getwidget, firebase_core, cloud_firestore,shared_preferences, http, image_picker, crypto, google_fonts, regexpattern, flutter_vector_icons, sanitize_html, provider, url_launcher, flutter_lints, flutter_launcher_icons, stream_transform, flutter_native_splash, internet_connection_checker, firebase_messaging, flutter_local_notifications, firebase_analytics, month_picker_dialog"
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/ahbab-members"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "See App Screenshots",
+        "link": "https://github.com/RaselParvejABC/ahbab-members#readme"
+      }
+    ]
   }
 ]
