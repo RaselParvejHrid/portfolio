@@ -242,5 +242,32 @@
         "link": "https://newsman-raselparvejabc.netlify.app"
       }
     ]
+  },
+  {
+    "title": "Panchapandava",
+    "images": ["/panchapandava1.png"],
+    "intro": "Athlete Selection App for Mars Olympic.",
+    "overview": [
+      "A web app to choose the 5 best athletes for Mars Olympics.",
+      "A user can also donate for the mission."
+    ],
+    "techs": [
+      {
+        "title": "Front",
+        "text": "Bootstrap 5, DOM Manipulation, Event Handling, Custom Event"
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/panchapandava"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://panchapandava-raselparvejabc.netlify.app"
+      }
+    ]
   }
 ]
