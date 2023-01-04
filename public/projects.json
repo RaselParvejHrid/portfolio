@@ -142,5 +142,63 @@
         "link": "https://computree-7bc3c.web.app"
       }
     ]
+  },
+  {
+    "title": "QuizScript",
+    "images": ["/quizscript1.png", "/quizscript2.png", "/quizscript3.png"],
+    "intro": "A React Project— A site offering Skill Test.",
+    "overview": ["Users can Test Your Skill here in Various Techs."],
+    "techs": [
+      {
+        "title": "Front",
+        "text": "bootstrap 5, react-bootstrap, react-bootstrap-icons, react-router-dom 6, react-router-bootstrap, recharts, Context API in React."
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/quizscript"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://quizscript-raselparvej.netlify.app"
+      }
+    ]
+  },
+  {
+    "title": "SuperActive",
+    "images": ["/computree1.png", "/computree2.png", "/computree3.png"],
+    "intro": "A MERN Project— A site offering Computer Science Courses.",
+    "overview": [
+      "Users can see remote-fetched IT courses, download a course description as PDF, register, and log in to purchase a course."
+    ],
+    "techs": [
+      {
+        "title": "Front",
+        "text": "React, Firebase Authentication (Email-Password, Google, and GitHub), React Router, React-PDF."
+      },
+      {
+        "title": "Back",
+        "text": "Node and Express."
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/computree"
+      },
+      {
+        "title": "GitHub (Server)",
+        "link": "https://github.com/RaselParvejABC/computree-server"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://computree-7bc3c.web.app"
+      }
+    ]
   }
 ]
