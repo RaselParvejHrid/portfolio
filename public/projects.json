@@ -169,35 +169,51 @@
   },
   {
     "title": "SuperActive",
-    "images": ["/computree1.png", "/computree2.png", "/computree3.png"],
-    "intro": "A MERN Project— A site offering Computer Science Courses.",
-    "overview": [
-      "Users can see remote-fetched IT courses, download a course description as PDF, register, and log in to purchase a course."
-    ],
+    "images": ["/superactive1.png"],
+    "intro": "Personal Daily Activity Management Web App with React and Material UI.",
+    "overview": ["The user can manage his daily activities."],
     "techs": [
       {
         "title": "Front",
-        "text": "React, Firebase Authentication (Email-Password, Google, and GitHub), React Router, React-PDF."
-      },
-      {
-        "title": "Back",
-        "text": "Node and Express."
+        "text": "React, React DOM"
       }
     ],
     "repos": [
       {
         "title": "GitHub (Client)",
-        "link": "https://github.com/RaselParvejABC/computree"
-      },
-      {
-        "title": "GitHub (Server)",
-        "link": "https://github.com/RaselParvejABC/computree-server"
+        "link": "https://github.com/RaselParvejABC/superactive"
       }
     ],
     "deployments": [
       {
         "title": "Live (Client)",
-        "link": "https://computree-7bc3c.web.app"
+        "link": "https://superactive-raselparvej.netlify.app"
+      }
+    ]
+  },
+  {
+    "title": "TypeMonster",
+    "images": ["/typemonster1.png"],
+    "intro": "Typing Speed Measuring Web App",
+    "overview": [
+      "This is a debugging task project assigned to me by my instructors of Complete Web Development Course at Programming Hero."
+    ],
+    "techs": [
+      {
+        "title": "Front",
+        "text": "DOM Manipulation, Event Handling."
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/type-monster"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://typester-raselparvejabc.netlify.app"
       }
     ]
   }
