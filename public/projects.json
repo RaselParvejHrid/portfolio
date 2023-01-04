@@ -1,35 +1,5 @@
 [
   {
-    "title": "Paginact",
-    "images": ["/paginact1.png", "/paginact2.png", "/paginact3.png"],
-    "intro": "An NPM Package that offers a React Hook that handles all the stateful logic needed to implement (Offset-based) Pagination in a React/React Native app.",
-    "overview": [
-      "A Dependent app can set (and then get) the total number of items, number of items per page, and current page index at compile-time or runtime.",
-      "A Dependant app can also get the total number of pages, first and last page indices, offset of the current page, start and last item indices on the current page, and previous and next page indices.",
-      "Comprehensive Documentation.",
-      "useReducer() Hook is used internally to manage Pagination State.",
-      "Minimum State Change Ensured."
-    ],
-    "techs": [
-      {
-        "title": "Techs",
-        "text": "React, React Hook, useReducer()"
-      }
-    ],
-    "repos": [
-      {
-        "title": "GitHub",
-        "link": "https://github.com/RaselParvejABC/paginact"
-      }
-    ],
-    "deployments": [
-      {
-        "title": "NPM",
-        "link": "https://www.npmjs.com/package/paginact"
-      }
-    ]
-  },
-  {
     "title": "PuranBoi",
     "images": ["/puran-boi1.png", "/puran-boi2.png", "/puran-boi3.png"],
     "intro": "A MERN Project— a P2P Old Books Selling-Buying Site with three types of users, namely, buyers, sellers, and admins.",
@@ -70,6 +40,36 @@
     ]
   },
   {
+    "title": "Paginact",
+    "images": ["/paginact1.png", "/paginact2.png", "/paginact3.png"],
+    "intro": "An NPM Package that offers a React Hook that handles all the stateful logic needed to implement (Offset-based) Pagination in a React/React Native app.",
+    "overview": [
+      "A Dependent app can set (and then get) the total number of items, number of items per page, and current page index at compile-time or runtime.",
+      "A Dependant app can also get the total number of pages, first and last page indices, offset of the current page, start and last item indices on the current page, and previous and next page indices.",
+      "Comprehensive Documentation.",
+      "useReducer() Hook is used internally to manage Pagination State.",
+      "Minimum State Change Ensured."
+    ],
+    "techs": [
+      {
+        "title": "Techs",
+        "text": "React, React Hook, useReducer()"
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com/RaselParvejABC/paginact"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "NPM",
+        "link": "https://www.npmjs.com/package/paginact"
+      }
+    ]
+  },
+  {
     "title": "Math Mentor",
     "images": ["/math-mentor1.png", "/math-mentor2.png", "/math-mentor3.png"],
     "intro": "A MERN Project— Service Review Site for a Individual Service Owner.",
@@ -106,6 +106,40 @@
       {
         "title": "Live (Client)",
         "link": "https://math-mentor-737ff.web.app"
+      }
+    ]
+  },
+  {
+    "title": "CompuTree",
+    "images": ["/computree1.png", "/computree2.png", "/computree3.png"],
+    "intro": "A MERN Project— A site offering Computer Science Courses.",
+    "overview": [
+      "Users can see remote-fetched IT courses, download a course description as PDF, register, and log in to purchase a course."
+    ],
+    "techs": [
+      {
+        "title": "Front",
+        "text": "React, Firebase Authentication (Email-Password, Google, and GitHub), React Router, React-PDF."
+      },
+      {
+        "title": "Back",
+        "text": "Node and Express."
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/computree"
+      },
+      {
+        "title": "GitHub (Server)",
+        "link": "https://github.com/RaselParvejABC/computree-server"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://computree-7bc3c.web.app"
       }
     ]
   }

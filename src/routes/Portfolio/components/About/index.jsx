@@ -11,13 +11,14 @@ const About = () => {
           Mathematician, Physicist, Computer Scientist,
           <br /> Programmer, Kung Fu Master, <br />
           The Clever Detective in the Funny Hat,
+          <br /> The Wandering Samurai,
           <br /> The Dark Knight,
           <br /> The Man of Steel,
           <br /> The Sorcerer Supreme, <br />
           The Old Crazy Turtle, <br />
           and “Yes, the Panda"—
           <br />I am everything I am—
-          <br />I am everything I want to be
+          <br />I am also everything I want to be
         </h2>
         <div className="my-8">
           <p>I love to solve Mathematical and Computational Problems.</p>
