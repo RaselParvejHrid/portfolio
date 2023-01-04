@@ -269,5 +269,31 @@
         "link": "https://panchapandava-raselparvejabc.netlify.app"
       }
     ]
+  },
+  {
+    "title": "SkillYard",
+    "images": ["/skillyard1.png", "/skillyard2.png", "/skillyard3.png"],
+    "intro": "A responsive web app representing an imaginary Ed Tech Company.",
+    "overview": [
+      "A responsive web app representing an imaginary Ed Tech Company with Bootstrap 5."
+    ],
+    "techs": [
+      {
+        "title": "Front",
+        "text": "Bootstrap 5"
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/ed-tech"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://ed-tech-raselparvejabc.netlify.app"
+      }
+    ]
   }
 ]
