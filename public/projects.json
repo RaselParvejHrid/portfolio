@@ -216,5 +216,31 @@
         "link": "https://typester-raselparvejabc.netlify.app"
       }
     ]
+  },
+  {
+    "title": "NewsMan",
+    "images": ["/newsman1.png", "/newsman2.png", "/newsman3.png"],
+    "intro": "A Web News App displaying news from a REST API.",
+    "overview": [
+      "A visitor can choose a category to see news under that category."
+    ],
+    "techs": [
+      {
+        "title": "Front",
+        "text": "Consuming REST API with fetch API, DOM Manipulation, Event Handling, Custom Event"
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/newsman"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://newsman-raselparvejabc.netlify.app"
+      }
+    ]
   }
 ]
