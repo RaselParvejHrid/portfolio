@@ -295,5 +295,31 @@
         "link": "https://ed-tech-raselparvejabc.netlify.app"
       }
     ]
+  },
+  {
+    "title": "World Cup",
+    "images": ["/worldcup1.png", "/worldcup2.png"],
+    "intro": "A Responsive CSS3 Web Fixture App of a fictional Football World Cup.",
+    "overview": [
+      "A Responsive CSS3 Web Fixture App of a fictional Football World Cup, with CSS3"
+    ],
+    "techs": [
+      {
+        "title": "Front",
+        "text": "CSS3: Flexbox, Grid, Animation, Media Query"
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/world-cup"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://raselparvejabc.github.io/world-cup"
+      }
+    ]
   }
 ]
