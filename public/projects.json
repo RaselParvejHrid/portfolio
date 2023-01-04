@@ -333,13 +333,13 @@
     "overview": [
       "Firebase Cloud Firestore for Realtime Database.",
       "provider Package for State Management.",
-      "Custom Bangla Fonts.",
+      "Custom Bangla Font.",
       "Null Safe."
     ],
     "techs": [
       {
         "title": "Techs",
-        "text": "getwidget, firebase_core, cloud_firestore,shared_preferences, crypto, google_fonts, multi_select_flutter, regexpattern date_time_picker, sanitize_html, provider, url_launcher, flutter_lints, flutter_launcher_icons"
+        "text": "getwidget, firebase_core, cloud_firestore,shared_preferences, crypto, google_fonts, multi_select_flutter, regexpattern, date_time_picker, sanitize_html, provider, url_launcher, flutter_lints, flutter_launcher_icons"
       }
     ],
     "repos": [
@@ -352,6 +352,38 @@
       {
         "title": "See App Screenshots",
         "link": "https://github.com/RaselParvejABC/bondhon-admins#readme"
+      }
+    ]
+  },
+  {
+    "title": "Ahbab Admins",
+    "images": ["/ahbabadmins1.jpg", "/ahbabadmins2.jpg", "/ahbabadmins3.jpg"],
+    "intro": "App for Admins of Al-Ahbab Society, Doha, Qatar, developed with Flutter (Android).",
+    "overview": [
+      "Firebase Cloud Firestore as Realtime Database.",
+      "stream_transform Package for Advanced Stream Handling.",
+      "provider Package for State Management.",
+      "Custom Bangla Fonts.",
+      "ImgBB as Image Storage.",
+      "Firebase Admin REST to send Firebase Message (FCM).",
+      "Null Safe."
+    ],
+    "techs": [
+      {
+        "title": "Techs",
+        "text": "getwidget, firebase_core, cloud_firestore,shared_preferences, http, image_picker, crypto, google_fonts, regexpattern, flutter_vector_icons, sanitize_html, provider, url_launcher, flutter_lints, flutter_launcher_icons, stream_transform, reorderables, googleapis_auth, flutter_native_splash"
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client)",
+        "link": "https://github.com/RaselParvejABC/ahbab-admins"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "See App Screenshots",
+        "link": "https://github.com/RaselParvejABC/ahbab-admins#readme"
       }
     ]
   }
