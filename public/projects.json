@@ -1,5 +1,42 @@
 [
   {
+    "title": "EasyBus",
+    "images": ["/easybus1.png", "/easybus2.png", "/easybus3.png"],
+    "intro": "A MERN Project— a Group Project— EasyBus is a platform providing Online Bus Ticket Booking Service.",
+    "overview": [
+      "A visitor can see What and Why EasyBus is, Current Deals offered by EasyBus, available Bus Routes, answers to some Frequently Asked Questions, and contact EasyBus simply by filling in a form.",
+      "A user, while signed in with a Password Account or Google or Facebook, can start booking a ticket by searching for a bus with starting point, destination and journey date, selecting a seat if a bus is available, then completing payment— thus having a seat booked.",
+      "A signed-in user can see/cancel his/her bookings on the protected 'My Bookings' page.",
+      "An admin, when signed in, can see all users, remove a user, promote a user to an admin, see all admins, remove an admin, see all buses, delete a bus and add a new bus."
+    ],
+    "techs": [
+      {
+        "title": "My Contributions",
+        "text": "‘Your Great Destination’ Section on Home Page, ‘About’ Page, README.md, Responsiveness, and passing and receiving Search Params."
+      },
+      {
+        "title": "Front",
+        "text": "React, React Router DOM, Material UI, Redux Toolkit, React Query, Stripe, Axios, Firebase (Authentication), react-countup, React Hook Form, React Hot Toast, Swiper, Vite (as Dev Server and Build Tool) etc."
+      },
+      {
+        "title": "Back",
+        "text": "concurrently, Typescript, Node, ExpressJS, cors, JWT Authorization, MongoDB, Mongoose, dotenv, stripe."
+      }
+    ],
+    "repos": [
+      {
+        "title": "GitHub (Client and Server)",
+        "link": "https://github.com/coderverse6/easybus"
+      }
+    ],
+    "deployments": [
+      {
+        "title": "Live (Client)",
+        "link": "https://easybus-391fd.web.app"
+      }
+    ]
+  },
+  {
     "title": "PuranBoi",
     "images": ["/puran-boi1.png", "/puran-boi2.png", "/puran-boi3.png"],
     "intro": "A MERN Project— a P2P Old Books Selling-Buying Site with three types of users, namely, buyers, sellers, and admins.",
