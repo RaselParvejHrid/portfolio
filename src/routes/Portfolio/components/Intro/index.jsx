@@ -14,11 +14,7 @@ const Intro = () => {
         <h2 className="text-h6 md:text-h5">
           <Typewriter
             options={{
-              strings: [
-                "A MERN Stack Developer",
-                "A React Native Developer",
-                "A Flutter Developer",
-              ],
+              strings: ["A MERN Stack Developer", "A Flutter Developer"],
               autoStart: true,
               loop: true,
             }}

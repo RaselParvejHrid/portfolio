@@ -21,19 +21,28 @@ const About = () => {
           <br />I am also everything I want to be
         </h2>
         <div className="my-8">
-          <p>I love to solve Mathematical and Computational Problems.</p>
-          <p className="mt-2">
-            I love also to work with Algorithms and love to learn things and
-            share my learnings.
+          <p>
+            I have experience in <span className="font-bold">Flutter</span> and{" "}
+            <span className="font-bold">MERN</span>. I'm a{" "}
+            <span className="font-bold">React Specialist</span> and hold
+            <span className="font-bold"> Upwork Certification</span> in
+            JavaScript Frontend Skills.
           </p>
           <p className="mt-2">
-            Things that excite me include Theory of Computation, Artificial
-            Intelligence, Machine Learning, Computer Vision, Blockchain, Web 3.0
-            .
+            I excel in developing Mobile Apps with Flutter and take pride in my
+            expertise.
           </p>
           <p className="mt-2">
-            So far, I have worked with Flutter and MERN. Now exploring React
-            Native.
+            On the server-side, I work with Node, Express, MongoDB, MySQL, and
+            NestJS, and I'm proud of my skills in this area too.
+          </p>
+          <p className="mt-2">
+            I enjoy tackling mathematical and computational problems, working
+            with algorithms, and sharing my knowledge.
+          </p>
+          <p className="mt-2">
+            I'm particularly passionate about Theory of Computation, Artificial
+            Intelligence, Machine Learning, Computer Vision, and Web 3.0.
           </p>
         </div>
       </div>

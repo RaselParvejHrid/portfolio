@@ -41,9 +41,15 @@ const MyProjects = () => {
       <h1 className="text-center font-bold text-rich-black-fogra text-h4 mb-8">
         My Projects
       </h1>
+
       <div className="grid gap-16 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
-          <Project key={index} project={project} index={index} />
+          <Project
+            key={index}
+            project={project}
+            projectIndex={index}
+            totalNumberOfProjects={projects.length}
+          />
         ))}
       </div>
     </section>

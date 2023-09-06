@@ -6,7 +6,8 @@ export async function loader({ params }) {
   const projectID = params.projectID;
   const response = await fetch("/projects.json");
   const responseBody = await response.json();
-  return responseBody[projectID];
+  const totalNumberOfProjects = responseBody.length;
+  return responseBody[totalNumberOfProjects - projectID - 1];
 }
 
 const ProjectDetail = () => {

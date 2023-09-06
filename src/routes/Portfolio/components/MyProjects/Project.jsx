@@ -2,7 +2,7 @@ import React from "react";
 import { PhotoView } from "react-photo-view";
 import { Link } from "react-router-dom";
 
-const Project = ({ project, index }) => {
+const Project = ({ project, projectIndex, totalNumberOfProjects }) => {
   return (
     <div className="shadow-lg p-8 rounded-md">
       <h2 className="text-center font-semibold text-forest-green text-h6 mb-4">
@@ -19,7 +19,7 @@ const Project = ({ project, index }) => {
 
       <p className="mt-6 text-center">
         <Link
-          to={`/project/${index}`}
+          to={`/project/${totalNumberOfProjects - projectIndex - 1}`}
           className="bg-outer-space-crayola p-2 px-6 rounded-md text-white"
         >
           See Details

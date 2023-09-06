@@ -12,12 +12,12 @@ const Skills = () => {
             Expert
           </h2>
           <p className="flex flex-wrap justify-center">
-            {`HTML5, CSS3, Javascript (ES6), Bootstrap 5, React, React Router DOM,
+            {`HTML5, CSS3, Javascript (ES6), jQuery, Bootstrap, React, React Router DOM,
             Node, Express, Dart, Flutter, Data Structures, Algorithms`
               .split(",")
-              .map((tech, index) => (
+              .map((tech) => (
                 <span
-                  key={index}
+                  key={tech}
                   className="border-rich-black-fogra border-2 text-body-small mx-1 my-1  px-2 py-0 rounded-md"
                 >
                   {tech.trim()}
@@ -31,13 +31,12 @@ const Skills = () => {
           </h2>
           <p className="flex flex-wrap justify-center">
             {`Tailwind, Material Tailwind, DaisyUI, React DaisyUI, React
-            Bootstrap, Material UI, MongoDB, Firebase, React Query, Typescript,
-            Git, GitHub, VSCode, Firebase Admin, C, C++, PHP, Java, Python,
-            Kotlin`
+            Bootstrap, Material UI, Redux, React Redux, Redux Toolkit, NextJS, NestJS, MongoDB, Firebase, React Query, Typescript,
+            Git, GitHub, VSCode`
               .split(",")
-              .map((tech, index) => (
+              .map((tech) => (
                 <span
-                  key={index}
+                  key={tech}
                   className="border-rich-black-fogra border-2 text-body-small mx-1 my-1  px-2 py-0 rounded-md"
                 >
                   {tech.trim()}
@@ -50,11 +49,12 @@ const Skills = () => {
             Familiar
           </h2>
           <p className="flex flex-wrap justify-center">
-            {`Redux, React Redux, Redux Toolkit, NextJS, React Native`
+            {`React Native, C, C++, PHP, Java, Python,
+            Kotlin`
               .split(",")
-              .map((tech, index) => (
+              .map((tech) => (
                 <span
-                  key={index}
+                  key={tech}
                   className="border-rich-black-fogra border-2 text-body-small mx-1 my-1  px-2 py-0 rounded-md"
                 >
                   {tech.trim()}
